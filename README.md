@@ -1,2 +1,2 @@
 # Senai-gpt
-Projeto do Senai Chat-GPT
+Projeto do Senai-GPT
