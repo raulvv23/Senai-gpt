@@ -1,0 +1,12 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   font-family: serif;
+}
+
+.robo-image{
+    background-image: url(/assets-atividade/Rectangle\ 1.png);
+    background-size: cover;
+
+}
