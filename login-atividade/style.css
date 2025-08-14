@@ -2,11 +2,66 @@
    padding: 0px;
    margin: 0px;
    box-sizing: border-box;
-   font-family: serif;
+   font-family:serif
 }
 
+.container{
+
+    display: flex;
+}
 .robo-image{
-    background-image: url(/assets-atividade/Rectangle\ 1.png);
+    width: 50vw;
+    height: 100vh;
+    background-image: url(../assets-atividade/tecnologia-e-inovacao.jpg);
     background-size: cover;
+    background-position: center;
 
 }
+
+.container-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo-login{
+
+    font-size: 76px;
+    font-weight: 400px;
+    margin-bottom: 16PX;
+
+}
+
+.container-login img {
+
+    height:150px ;
+
+}
+
+.inpt{
+
+    padding: 18px;
+    background-color: #f7f9fb;
+    width: 377px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    
+    
+}
+
+.botao{
+
+    cursor: pointer;
+    padding: 16px;
+    width: 377px;
+    color: #ffff;
+    background-color:#1C1C1C ;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
