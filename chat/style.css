@@ -38,9 +38,10 @@
 .logo{
 
     background-image: url(../assets/Chat.png);
+    justify-content: center;
     width: 444px;
     height: 101px;
-    margin-top: 13%;
+    margin-top: 11%;
     
     
 }
@@ -91,16 +92,27 @@
     font-size: 12px;
     font-weight: 400;
     padding-left: 22px;
+    display: flex;
+    align-items: center;
 
 }
 
+.btn i{
+    
+    font-size: 15px;
+    padding: 25px;
+}
+
+
+
 .container-sec{
 
-    
+    max-width: 75%;
     background-color: white;
     height: 300px;
     display: flex;
     margin-top: 40px;
+    text-align: center;
     
 }
 
@@ -135,6 +147,7 @@
 
 .text{
     padding-bottom: 16px;
+    margin-bottom: 12px;
     font-size: 12px;
     background-color: #F7F9FB;
     padding: 15px;
@@ -156,4 +169,24 @@
     margin-bottom: 40px;
     margin-top: 41px;
     
+    
 }
+
+.sec-p i{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+
+}  
+
+.container-inpt {
+    display: flex;
+    align-items: center;
+    background-color:  #F7F9FB;
+    width: 700px;
+    height: 20px;
+    margin: auto;
+    
+    
+}
+
