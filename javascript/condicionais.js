@@ -48,5 +48,86 @@ if (number > 0) {
     alert("Seu numero é zero!");
 }
 
+//Exercicio 5
+
+let idadec = Number(prompt(" 5.Insira a sua idade:"));
+
+if (idadec > 0 && idadec < 12) {
+    alert("Voce e uma crianca!");
+    
+} else if (idadec > 13 && idadec < 17) {
+    alert("Voce e um adolescente!");
+
+} else if(idadec == 18) {
+    alert("Voce e um adulto!");
+} else{
+    alert("Idade Invalida");
+}
 
 
+
+
+//exercicio 6
+
+let numeroip = Number(prompt("Insira um numero:"));
+
+if (numeroip % 2 ==0 ) {
+    alert("O numero e par!")
+
+    
+} else { 
+    alert("O numero e impar")
+    
+}
+
+//Exercicio 1 int
+
+let numero1 = Number(prompt("Insira um numero:"));
+let numero2 = Number(prompt("Insira outro numero:"));
+let operacao = prompt("Escolha uma operacao, +, -, *, /")
+if (operacao === "+") {
+    alert(numero1 + numero2)
+    
+} else if(operacao === "-") {
+    alert(numero1 - numero2)
+
+
+}else if(operacao === "*") {
+    alert(numero1 * numero2)
+
+
+}else if(operacao === "/") {
+    alert(numero1 / numero2)
+
+}else{
+    alert("escolha uma das operacoes anteriores")
+}
+
+
+//exercicio 2 int
+
+let usuario = prompt("Insira um nome de usuario:");
+let senha = prompt("Insira uma senha:")
+
+if (usuario == "admin" && senha == "1234" ) {
+    alert("Login bem-sucedido")
+    
+    
+} else{
+    alert("Acesso negado")
+}
+
+//exercicio 3 int 
+
+let num1 = prompt("insira um numero")
+let num2 = prompt("insira outro numero")
+let num3 = prompt("insira mais um numero")
+if (num1> num2 && num1>num3) {
+    alert(num1, "e o maior")
+    
+}else if(num2> num1 && num2>num3) {
+    alert(num2 + " e o maior")
+
+}else if (num3>num1 && num3>num2) {
+    alert(num3 + " e o maior")
+}
