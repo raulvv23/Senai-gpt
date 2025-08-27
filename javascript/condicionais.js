@@ -131,3 +131,29 @@ if (num1> num2 && num1>num3) {
 }else if (num3>num1 && num3>num2) {
     alert(num3 + " e o maior")
 }
+
+//exercicio 1 av
+
+let ano = prompt("Digite um ano:")
+
+if (ano % 4 === 0 && ano % 400 === 0 ) {
+    alert("seu ano e bissexto")
+
+    
+} else if (ano % 4 === 0 && ano % 100 === 0 ) {
+    alert("Seu ano e bissexto")
+
+
+} else if (ano % 4 === 0 && ano % 100 === 0  && ano % 400 === 0) {
+    alert("Seu ano e bissexto")
+
+
+}else{
+    alert("Seu ano nao e bissesto")
+}
+
+if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
+    alert("bissexto");
+} else {
+    alert("nao bissexto")
+}
