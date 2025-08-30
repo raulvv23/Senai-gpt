@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: grey;
+}
+
+.principal{ 
+    color: white;
+    text-align: center;
+   
+    
+
+}
+
+.principal h1{
+    font-size: 30px;
+
+
+}
+
+.principal p {
+    font-size: 25px;
+}
+
+
+.btn{
+    background-color: lightblue;
+    border-radius: 7px;
+    border: none;
+    font-size: 10px;
+    transition: all ease 1s;
+    
+    
+    
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+    
+    
+}
+
+.text{
+    font-size: 17px;
+    color: white;
+}
+
+.container{
+
+    
+    width: 100vw;
+    margin-top: 50px;
+    
+
+    
+    
+
+
+}
+
+.containerex{
+   
+    margin-left: 20px;
+    margin-right: 19px;
+    background-color:rgb(57, 66, 66) ;
+    padding: 15px;
+    
+}
+
+.ex{
+    color: white;
+}

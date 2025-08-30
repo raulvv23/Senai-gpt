@@ -1,18 +1,37 @@
-//Exercicio 1
+function adicionarlog () {
 
-let idade = prompt("qual e a idade");
+    let divLogs = document.querySelector(".Logs");
 
-if (idade >= 18) {
-    alert("parabens, voce e maior de idade");
+    let tagP = document.createElement("p");
 
-} else {
-    alert("vai pra super nani ");
+    tagP.innerHTML = "Excercicio executado em " + new Date().toLocaleDateString() + " as " + new Date().toLocaleTimeString();
+
+    divLogs.appendChild(tagP);
 }
 
 
-//Exercicio 2
 
-let numero = Number(prompt("digite um numero"));
+// //Exercicio 1
+function exercicio01 () {
+
+    let idade = prompt("qual e a sua idade?");
+
+if (idade >= 18) {
+    alert("parabens, voce e maior de idade!");
+
+} else {
+    alert("vai pra super nani!! ");
+}
+
+ adicionarlog();
+
+
+}
+
+// //Exercicio 2
+function exercicio02 () {
+
+    let numero = Number(prompt("digite um numero"));
 
 if (numero > 0 ) {
     console.log("O numero é positivo!");
@@ -21,10 +40,13 @@ if (numero > 0 ) {
     console.log("O numero é negativo!");
 }
 
+}
 
-//Exercicio 3
+// //Exercicio 3
 
-let nota = Number(prompt("Digite a nota do aluno"));
+function exercicio03 () {
+
+    let nota = Number(prompt("Digite a nota do aluno"));
 
 if (nota >= 60) {
     alert (" Aluno aprovado!");
@@ -33,10 +55,13 @@ if (nota >= 60) {
     alert ("Aluno reprovado!")
 }
 
+}
 
-//Exercicio 4 
+// //Exercicio 4 
 
-let number = Number(prompt("Digite um numero:"));
+function exercicio04 () {
+
+    let number = Number(prompt("Digite um numero:"));
 
 if (number > 0) {
     alert("O numero é positivo");
@@ -47,10 +72,14 @@ if (number > 0) {
 } else {
     alert("Seu numero é zero!");
 }
+}
 
-//Exercicio 5
 
-let idadec = Number(prompt(" 5.Insira a sua idade:"));
+// //Exercicio 5
+
+function exercicio05 () {
+
+    let idadec = Number(prompt(" 5.Insira a sua idade:"));
 
 if (idadec > 0 && idadec < 12) {
     alert("Voce e uma crianca!");
@@ -63,97 +92,100 @@ if (idadec > 0 && idadec < 12) {
 } else{
     alert("Idade Invalida");
 }
-
-
-
-
-//exercicio 6
-
-let numeroip = Number(prompt("Insira um numero:"));
-
-if (numeroip % 2 ==0 ) {
-    alert("O numero e par!")
-
-    
-} else { 
-    alert("O numero e impar")
-    
-}
-
-//Exercicio 1 int
-
-let numero1 = Number(prompt("Insira um numero:"));
-let numero2 = Number(prompt("Insira outro numero:"));
-let operacao = prompt("Escolha uma operacao, +, -, *, /")
-if (operacao === "+") {
-    alert(numero1 + numero2)
-    
-} else if(operacao === "-") {
-    alert(numero1 - numero2)
-
-
-}else if(operacao === "*") {
-    alert(numero1 * numero2)
-
-
-}else if(operacao === "/") {
-    alert(numero1 / numero2)
-
-}else{
-    alert("escolha uma das operacoes anteriores")
 }
 
 
-//exercicio 2 int
 
-let usuario = prompt("Insira um nome de usuario:");
-let senha = prompt("Insira uma senha:")
 
-if (usuario == "admin" && senha == "1234" ) {
-    alert("Login bem-sucedido")
+
+// //exercicio 6
+function exercicio06 (){
+
+    if (numeroip % 2 ==0 ) {
+        alert("O numero e par!")
     
-    
-} else{
-    alert("Acesso negado")
+        
+    } else { 
+        alert("O numero e impar")
+        
+    }
 }
 
-//exercicio 3 int 
 
-let num1 = prompt("insira um numero")
-let num2 = prompt("insira outro numero")
-let num3 = prompt("insira mais um numero")
-if (num1> num2 && num1>num3) {
-    alert(num1, "e o maior")
+// //Exercicio 1 int
+
+// let numero1 = Number(prompt("Insira um numero:"));
+// let numero2 = Number(prompt("Insira outro numero:"));
+// let operacao = prompt("Escolha uma operacao, +, -, *, /")
+// if (operacao === "+") {
+//     alert(numero1 + numero2)
     
-}else if(num2> num1 && num2>num3) {
-    alert(num2 + " e o maior")
+// } else if(operacao === "-") {
+//     alert(numero1 - numero2)
 
-}else if (num3>num1 && num3>num2) {
-    alert(num3 + " e o maior")
-}
 
-//exercicio 1 av
+// }else if(operacao === "*") {
+//     alert(numero1 * numero2)
 
-let ano = prompt("Digite um ano:")
 
-if (ano % 4 === 0 && ano % 400 === 0 ) {
-    alert("seu ano e bissexto")
+// }else if(operacao === "/") {
+//     alert(numero1 / numero2)
+
+// }else{
+//     alert("escolha uma das operacoes anteriores")
+// }
+
+
+// //exercicio 2 int
+
+// let usuario = prompt("Insira um nome de usuario:");
+// let senha = prompt("Insira uma senha:")
+
+// if (usuario == "admin" && senha == "1234" ) {
+//     alert("Login bem-sucedido")
+    
+    
+// } else{
+//     alert("Acesso negado")
+// }
+
+// //exercicio 3 int 
+
+// let num1 = prompt("insira um numero")
+// let num2 = prompt("insira outro numero")
+// let num3 = prompt("insira mais um numero")
+// if (num1> num2 && num1>num3) {
+//     alert(num1, "e o maior")
+    
+// }else if(num2> num1 && num2>num3) {
+//     alert(num2 + " e o maior")
+
+// }else if (num3>num1 && num3>num2) {
+//     alert(num3 + " e o maior")
+// }
+
+// //exercicio 1 av
+
+// let ano = prompt("Digite um ano:")
+
+// if (ano % 4 === 0 && ano % 400 === 0 ) {
+//     alert("seu ano e bissexto")
 
     
-} else if (ano % 4 === 0 && ano % 100 === 0 ) {
-    alert("Seu ano e bissexto")
+// } else if (ano % 4 === 0 && ano % 100 === 0 ) {
+//     alert("Seu ano e bissexto")
 
 
-} else if (ano % 4 === 0 && ano % 100 === 0  && ano % 400 === 0) {
-    alert("Seu ano e bissexto")
+// } else if (ano % 4 === 0 && ano % 100 === 0  && ano % 400 === 0) {
+//     alert("Seu ano e bissexto")
 
 
-}else{
-    alert("Seu ano nao e bissesto")
-}
+// }else{
+//     alert("Seu ano nao e bissesto")
+// }
 
-if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
-    alert("bissexto");
-} else {
-    alert("nao bissexto")
-}
+// if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
+//     alert("bissexto");
+// } else {
+//     alert("nao bissexto")
+// }

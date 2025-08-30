@@ -32,11 +32,11 @@
 //exercicio 3
 
 
-let number = prompt("Digite um numero:")
-soma=0
+// let number = prompt("Digite um numero:")
+// soma=0
 
-for(let j = 1; j = number; j++) {
+// for(let j = 1; j = number; j++) {
 
-    soma = (number + j)
-    console.log("Seu resultado e " + soma)
-}
+//     soma = (number + j)
+//     console.log("Seu resultado e " + soma)
+// }
